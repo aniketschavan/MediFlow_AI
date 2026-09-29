@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediFlow_AI" parent="Base.Theme.MediFlow_AI">
+        <!-- Transparent system navigation and status bars for Edge-to-Edge -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- Android 12+ (API 31+) Mandatory System Splash Screen Overrides -->
+        <!-- 1. Match background with MediFlow splash screen dark teal -->
+        <item name="android:windowSplashScreenBackground">@color/splash_background</item>
+
+        <!-- 2. Set the animated icon to transparent, completely hiding the Android robot logo -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent_icon</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+    </style>
+</resources>

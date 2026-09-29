@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MediFlow_AI" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Match window background with MediFlow splash screen dark teal -->
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.MediFlow_AI" parent="Base.Theme.MediFlow_AI" />
+</resources>

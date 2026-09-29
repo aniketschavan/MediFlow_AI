@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Medical Deep Teal Gradient Background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#006D77" />
+                <item android:offset="0.6" android:color="#004D40" />
+                <item android:offset="1.0" android:color="#002824" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Ambient Circular Tech Rings -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2583C5BE"
+        android:strokeWidth="1.2"
+        android:pathData="M54,20 C72.78,20 88,35.22 88,54 C88,72.78 72.78,88 54,88 C35.22,88 20,72.78 20,54 C20,35.22 35.22,20 54,20 Z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#15FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M54,26 C69.46,26 82,38.54 82,54 C82,69.46 69.46,82 54,82 C38.54,82 26,69.46 26,54 C26,38.54 38.54,26 54,26 Z" />
+</vector>

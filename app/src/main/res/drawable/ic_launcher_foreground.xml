@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Ambient Circular Glow Behind Logo -->
+    <path
+        android:fillColor="#2283C5BE"
+        android:pathData="M54,24 C70.57,24 84,37.43 84,54 C84,70.57 70.57,84 54,84 C37.43,84 24,70.57 24,54 C24,37.43 37.43,24 54,24 Z" />
+
+    <!-- Rounded Medical Cross: Vertical Arm -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,33 h8 c2.2,0 4,1.8 4,4 v34 c0,2.2 -1.8,4 -4,4 h-8 c-2.2,0 -4,-1.8 -4,-4 v-34 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Rounded Medical Cross: Horizontal Arm -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,46 h34 c2.2,0 4,1.8 4,4 v8 c0,2.2 -1.8,4 -4,4 h-34 c-2.2,0 -4,-1.8 -4,-4 v-8 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- ECG Heartbeat Pulse Wave Across the Medical Cross -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#006D77"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M31,54 L44,54 L47,58 L52,43 L56,64 L60,50 L64,54 L77,54" />
+
+    <!-- AI Sparkle Emblem (Top Right) -->
+    <!-- Primary AI Star Sparkle -->
+    <path
+        android:fillColor="#83C5BE"
+        android:pathData="M69,33 C69,36.5 70.5,38 74,38 C70.5,38 69,39.5 69,43 C69,39.5 67.5,38 64,38 C67.5,38 69,36.5 69,33 Z" />
+
+    <!-- Secondary Mini AI Star Sparkle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,30 C75,31.8 75.8,32.5 77.5,32.5 C75.8,32.5 75,33.2 75,35 C75,33.2 74.2,32.5 72.5,32.5 C74.2,32.5 75,31.8 75,30 Z" />
+
+</vector>
